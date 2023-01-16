@@ -104,7 +104,7 @@ Clone the repository using [this link](https://github.com/Juanpa8830/)
 In the terminal, go to your file directory and run this command.
 
 ```
-$ git clone https://github.com/Juanoa8830/react-setup.git
+$ git clone https://github.com/Juanpa8830/react-setup.git
 ```
 ### Get into development
 
