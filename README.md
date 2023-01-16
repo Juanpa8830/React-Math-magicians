@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <h1><b>React innitial configuration</b></h1>
+  <h1><b>React initial configuration</b></h1>
 
 </div>
 
