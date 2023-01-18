@@ -1,11 +1,20 @@
+import React from 'react';
+import Calculator from './Components/Calculator';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      hola
-    </div>
-  );
-}
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-export default App;
+  render() {
+    return (
+      <div className="App">
+        <div className="calc-container">
+          <Calculator />
+        </div>
+      </div>
+    );
+  }
+}
