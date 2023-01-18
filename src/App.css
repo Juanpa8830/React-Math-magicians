@@ -1,39 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(175, 172, 172);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+}
+
+.calc-container {
+  width: 500px;
+  height: 600px;
+  background-color: rgb(213, 210, 210);
+  border: 4px solid rgb(69, 68, 68);
+  margin-top: 100px;
+}
+
+.calculator-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas:
+    'display display display display'
+    'AC mm porcentaje division'
+    'nueve ocho siete multiplicar'
+    'seis cinco cuatro restar'
+    'tres dos uno sumar'
+    'cero cero decimal igual';
+  width: 100%;
+  height: 100%;
+}
+
+.display {
+  grid-area: display;
+  font-size: 50px;
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 10px;
+  background-color: rgb(118, 118, 123);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.AC { grid-area: AC; }
+.mm { grid-area: mm; }
+.porcentaje { grid-area: porcentaje; }
+.division { grid-area: division; }
+.nueve { grid-area: nueve; }
+.ocho { grid-area: ocho; }
+.siete { grid-area: siete; }
+.multiplicar { grid-area: multiplicar; }
+.seis { grid-area: seis; }
+.cinco { grid-area: cinco; }
+.cuatro { grid-area: cuatro; }
+.restar { grid-area: restar; }
+.tres { grid-area: tres; }
+.dos { grid-area: dos; }
+.uno { grid-area: uno; }
+.sumar { grid-area: sumar; }
+.cero { grid-area: cero; }
+
+.decimal {
+  grid-area: decimal;
+  font-size: 40px;
+  background-color: rgb(209, 208, 206);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.igual { grid-area: igual; }
 
-  to {
-    transform: rotate(360deg);
-  }
+.AC,
+.mm,
+.porcentaje,
+.restar,
+.nueve,
+.ocho,
+.siete,
+.seis,
+.cinco,
+.cuatro,
+.tres,
+.dos,
+.uno,
+.cero {
+  background-color: rgb(209, 208, 206);
+  font-size: 17px;
+}
+
+.multiplicar,
+.division,
+.sumar,
+.restar,
+.igual {
+  background-color: rgb(245, 171, 35);
+  font-size: 20px;
+  font-weight: bold;
 }
