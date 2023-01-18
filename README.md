@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <h1><b>React initial configuration</b></h1>
+  <h1><b>React-Math-magicians</b></h1>
 
 </div>
 
@@ -55,7 +55,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Project Name
 
-## React innitial configuration
+## React-Math-magicians
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- This is an initial configuration od an app with react.
+- This is React application that displays a basic calculator
 - This also has linters configured.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -104,7 +104,7 @@ Clone the repository using [this link](https://github.com/Juanpa8830/)
 In the terminal, go to your file directory and run this command.
 
 ```
-$ git clone https://github.com/Juanpa8830/react-setup.git
+$ git clone https://github.com/Juanpa8830/React-Math-magicians.git
 ```
 ### Get into development
 
@@ -141,9 +141,8 @@ $ npm start (run the app locally)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Styling of the project**
 - [ ] **Add functionality**
-- [ ] **Adding responsiveness**
+- [ ] **Add responsiveness**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,7 +153,7 @@ $ npm start (run the app locally)
 
 Contributions, issues, and feature requests are welcome! Add suggestions by opening new issues.
 
-Feel free to check the [issues page](https://github.com/Juanpa8830/react-setup/issues).
+Feel free to check the [issues page](https://github.com/Juanpa8830/React-Math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
