@@ -1,27 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class NumbButton extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
+export default function NumbButton(props) {
   // intermediario
-  handleClick = () => {
-    const { element, functionClick } = this.props;
+  const handleClick = () => {
+    const { element, functionClick } = props;
     functionClick(element);
-  }
+  };
+  const { element, addClass } = props;
 
-  render() {
-    const { element, addClass } = this.props;
-
-    return (
-      <button onClick={this.handleClick} type="button" className={addClass}>
-        {element}
-      </button>
-    );
-  }
+  return (
+    <button onClick={handleClick} type="button" className={addClass}>
+      {element}
+    </button>
+  );
 }
 
 NumbButton.defaultProps = {
