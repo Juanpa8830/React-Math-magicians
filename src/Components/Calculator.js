@@ -1,8 +1,7 @@
 import React from 'react';
 import NumbButton from './numb-button';
 import OperatorButton from './operator-button';
-import calculate from '../logic/calculate'
-
+import calculate from '../logic/calculate';
 
 export default class Calculator extends React.Component {
   constructor(props) {
@@ -11,15 +10,14 @@ export default class Calculator extends React.Component {
       total: null,
       next: null,
       operation: null,
-      display:'0',
+      display: '0',
     };
   }
 
-  eventClick = (buttonName)=>{
+  eventClick = (buttonName) => {
     let display = '';
     const { total, next, operation } = calculate(this.state, buttonName);
-    console.log(total, next, operation); 
-       
+
     if (operation !== null && operation !== undefined) {
       display = next !== null && next !== undefined ? next : total;
     } else if (next !== null && next !== undefined) {
@@ -34,11 +32,12 @@ export default class Calculator extends React.Component {
       display,
     });
   }
-  
+
   render() {
+    const { display } = this.state;
     return (
       <section className="calculator-container">
-        <p className="display">{this.state.display}</p>
+        <p className="display">{display}</p>
         <NumbButton addClass="AC" element="AC" functionClick={this.eventClick} />
         <NumbButton addClass="mm" element="+/-" functionClick={this.eventClick} />
         <NumbButton addClass="porcentaje" element="%" functionClick={this.eventClick} />

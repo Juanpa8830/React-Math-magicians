@@ -6,16 +6,18 @@ export default class NumbButton extends React.Component {
     super(props);
     this.state = {};
   }
-//intermediario
+
+  // intermediario
   handleClick = () => {
     const { element, functionClick } = this.props;
     functionClick(element);
   }
+
   render() {
     const { element, addClass } = this.props;
-   
+
     return (
-      <button onClick = {this.handleClick} type="button" className={addClass}>
+      <button onClick={this.handleClick} type="button" className={addClass}>
         {element}
       </button>
     );
@@ -25,9 +27,11 @@ export default class NumbButton extends React.Component {
 NumbButton.defaultProps = {
   element: null,
   addClass: null,
- };
+  functionClick: null,
+};
 
 NumbButton.propTypes = {
   element: PropTypes.string,
   addClass: PropTypes.string,
-}
+  functionClick: PropTypes.func,
+};

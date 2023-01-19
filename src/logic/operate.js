@@ -12,7 +12,7 @@ export default function operate(numberOne, numberTwo, operation) {
   if (operation === 'x') {
     return one.times(two).toString();
   }
-  if (operation === '÷'|| operation === '/') {
+  if (operation === '÷' || operation === '/') {
     try {
       return one.div(two).toString();
     } catch (err) {
@@ -20,7 +20,7 @@ export default function operate(numberOne, numberTwo, operation) {
     }
   }
   if (operation === '%') {
-     try {
+    try {
       return one.mod(two).toString();
     } catch (err) {
       return "Can't find modulo as can't divide by 0.";
