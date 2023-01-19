@@ -36,6 +36,7 @@ export default class Calculator extends React.Component {
   render() {
     const { display } = this.state;
     return (
+
       <section className="calculator-container">
         <p className="display">{display}</p>
         <NumbButton addClass="AC" element="AC" functionClick={this.eventClick} />
@@ -52,7 +53,7 @@ export default class Calculator extends React.Component {
         <NumbButton addClass="uno" element="1" functionClick={this.eventClick} />
         <NumbButton addClass="cero" element="0" functionClick={this.eventClick} />
         <NumbButton addClass="decimal" element="." functionClick={this.eventClick} />
-        <NumbButton addClass="division" element="/" functionClick={this.eventClick} />
+        <NumbButton addClass="division" element="÷" functionClick={this.eventClick} />
         <OperatorButton addClass="multiplicar" element="x" functionClick={this.eventClick} />
         <OperatorButton addClass="restar" element="-" functionClick={this.eventClick} />
         <OperatorButton addClass="sumar" element="+" functionClick={this.eventClick} />
