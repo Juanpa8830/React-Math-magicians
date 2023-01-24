@@ -44,11 +44,13 @@ const Calculator = () => {
   });
 
   return (
-
-    <section className="calculator-container">
-      <p className="display">{display}</p>
-      {btnList}
-    </section>
+    <div className="calc-section">
+      <h2 className="calc-h2">Let&apos;s do some math!!</h2>
+      <section className="calculator-container">
+        <p className="display">{display}</p>
+        {btnList}
+      </section>
+    </div>
   );
 };
 
