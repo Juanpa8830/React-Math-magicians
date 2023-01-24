@@ -1,196 +1,175 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-  <h1><b>React-Math-magicians</b></h1>
+  <img src=".src/images/calculator.svg" alt="logo" width="180"  height="auto" />
+  <br/>
+
+  <h3><b>PokeApp</b></h3>
+  <p>This is a WebApp that shows three pages: home, calculator and quote. Each one of the pages displays some information. Furthermore, the Calculator page displays a functional calculator that is free and easy to use by users.</p>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[PokeApp\] ](#-pokeapp-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Build](#build)
+    - [Run](#run)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [© Acknowledge ](#-acknowledge-)
+  - [⭐ Show your support ](#-show-your-support-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 [Math Magicians] <a name="about-project"></a>
 
-# 📖 Project Name
+*[Math Magicians]* a WebApp that shows three pages: home, calculator and quote. Each one of the pages displays some information. Furthermore, the Calculator page displays a functional calculator that is free and easy to use by users..
+<div align="center">
 
-## React-Math-magicians
+  <img src="./src/images/Mmscreenshot.png" alt="calculator" width="750"  height="auto" />
+
+  <br/>
+
+</div>
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- React
+### Tech Stack <a name="tech-stack"></a>
 
-<!-- Features -->
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">Javascript</a></li>
+    <li><a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">WebPack</a></li>
+    <li><a href="https://es.reactjs.org/" target="_blank" rel="noopener noreferrer">React</a></li>
+  </ul>
+
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- This is React application that displays a basic calculator
-- This also has linters configured.
+- *Dinamically displays the pages that were build by using react function based components.*
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
-## 💻 Getting Started
-To clone the repository in local environment try following steps.
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- <a href="" target="_blank" rel="noopener noreferrer">Math magicians - Live Demo</a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- [x] A web browser like Google Chrome.
-- [x] A code editor like Visual Studio Code with Git and Node.js.
+In order to run this project you need `git` locally installed. Please got to [Getting Started - Installing Git guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the steps described for your system to install `git`.
 
-You can check if Git is installed by running the following command in the terminal.
-```
-$ git --version
-```
-
-Likewise for Node.js and npm for package installation.
-```
-$ node --version && npm --version
-```
 ### Setup
 
-Clone the repository using [this link](https://github.com/Juanpa8830/)
+Clone this repository to your desired folder:
+```sh
+  cd my-folder
+  git clone git@github.com:luigirazum/mv-pokeapp.git
+```
 
 ### Install
 
-In the terminal, go to your file directory and run this command.
-
-```
-$ git clone https://github.com/Juanpa8830/React-Math-magicians.git
-```
-### Get into development
-
-In the terminal, run these commands to get into development.
-```
-$ cd react-setup
-
-$ npm init -y
-
-$ npm install (install dependencies)
-
-$ npm run build (create the optimized for production)
-
-$ npm start (run the app locally)
+Install this project with:
+```sh
+  cd math magicians
+  npm install
 ```
 
-### Run tests
+### Build
+
+To build the project, execute the following command:
+```sh
+  npm run build  
+```
+
+### Run
+
+To run tests, run the following command:
+sh
+  npm start
+
 
 ### Deployment
 
+You can deploy this project using:
+```sh
+  npm deploy
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Juan Pablo Guerrero**
+👨‍💻 Juan Pablo Guerrero
 
-- GitHub: [@Juanpa8830](https://github.com/Juanpa8830)
+- GitHub: <a href="https://github.com/juanpa8830" target="_blank" rel="noopener noreferrer">@Juanpa8830</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add functionality**
-- [ ] **Add responsiveness**
-
+- [ ] *Add some popular quotes.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome! Add suggestions by opening new issues.
+In order to improve this project, contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Juanpa8830/React-Math-magicians/issues).
+Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## © Acknowledge <a name="acknowledge"></a>
 
-Authors would like to thank:
-- [Microverse](https://www.microverse.org/)
-- Code Reviewers
-- Coding Partners
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+
+## ⭐ Show your support <a name="support"></a>
+
+I really enjoyed doing this project, so, if you like it, I´d appreciate your support giving me a ⭐.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## ❓ FAQ <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-
-
-
-
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
