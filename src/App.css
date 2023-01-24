@@ -176,3 +176,8 @@
   align-self: center;
   color: rgb(53, 87, 117);
 }
+
+.listLink {
+color: rgb(53, 87, 117);
+text-decoration: none;
+}

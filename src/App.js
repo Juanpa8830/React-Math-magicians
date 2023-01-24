@@ -12,9 +12,9 @@ export default function App() {
       <nav className="nav">
         <h1 className="navtitle">Math Magicians</h1>
         <ul className="navlist">
-          <li className="listItem"><Link className="listItem" to="/">Home</Link></li>
-          <li className="listItem"><Link to="/Calculator">Calculator</Link></li>
-          <li className="listItem"><Link to="/Quote">Quote</Link></li>
+          <li className="listItem"><Link className="listLink" to="/">Home</Link></li>
+          <li className="listItem"><Link className="listLink" to="/Calculator">Calculator</Link></li>
+          <li className="listItem"><Link className="listLink" to="/Quote">Quote</Link></li>
         </ul>
       </nav>
 
