@@ -5,7 +5,7 @@
   <img src=".src/images/calculator.svg" alt="logo" width="180"  height="auto" />
   <br/>
 
-  <h3><b>PokeApp</b></h3>
+  <h3><b>Math Magicians</b></h3>
   <p>This is a WebApp that shows three pages: home, calculator and quote. Each one of the pages displays some information. Furthermore, the Calculator page displays a functional calculator that is free and easy to use by users.</p>
 
 </div>
