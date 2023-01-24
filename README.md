@@ -88,7 +88,7 @@ In order to run this project you need `git` locally installed. Please got to [Ge
 Clone this repository to your desired folder:
 ```sh
   cd my-folder
-  git clone git@github.com:luigirazum/mv-pokeapp.git
+  git clone git@github.com:juanpa8830/React-Math-magicians.git
 ```
 
 ### Install
