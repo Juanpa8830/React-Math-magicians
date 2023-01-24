@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src=".src/images/calculator.svg" alt="logo" width="180"  height="auto" />
+  <img src=".src/images/calculator.png" alt="logo" width="180"  height="auto" />
   <br/>
 
   <h3><b>Math Magicians</b></h3>
