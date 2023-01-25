@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import renderer from 'react-test-renderer';
-import Calculator from '../components/Calculator';
+import Calculator from '../Components/Calculator';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
