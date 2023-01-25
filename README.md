@@ -109,8 +109,8 @@ To build the project, execute the following command:
 ### Run
 
 To run tests, run the following command:
-sh
-  npm start
+
+  npm test
 
 
 ### Deployment
@@ -128,6 +128,10 @@ You can deploy this project using:
 👨‍💻 Juan Pablo Guerrero
 
 - GitHub: <a href="https://github.com/juanpa8830" target="_blank" rel="noopener noreferrer">@Juanpa8830</a>
+
+👨‍💻 Prangon Ghose
+
+- GitHub: <a href="https://github.com/PrangonGhose" target="_blank" rel="noopener noreferrer">@PrangonGhose</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

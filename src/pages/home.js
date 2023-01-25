@@ -4,7 +4,7 @@ const HomeSection = () => (
   <div className="home-section">
     <h2 className="home-title">Welcome to our page!</h2>
     <p className="textSection">
-      <LoremIpsum p={2} />
+      <LoremIpsum p={2} startWithLoremIpsum random={false} />
     </p>
   </div>
 );
